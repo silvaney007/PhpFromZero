@@ -1,0 +1,35 @@
+{
+    "name": "dahkenangnon/php-from-zero",
+    "description": "Handcrafted PHP OOP project templates using MVC design with no dependencies.",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/Dahkenangnon/PhpFromZero",
+    "readme": "README.md",
+    "keywords": ["PhpFromZero", "Dahkenangnon", "Php templates", "OOP"],
+    "version": "0.0.1-dev",
+    "authors": [{
+        "name": "Justin Yamonwan Dah-kenangnon",
+        "email": "dah.kenangnon@gmail.com",
+        "homepage": "https://creative.epatriote.com",
+        "role": "Developer"
+    }],
+    "support": {
+        "email": "dah.kenangnon@gmail.com",
+        "forum": "https://chat.whatsapp.com/Fm06VdgtODW7cQuvjL6dPS"
+    },
+    "require": {
+        "php": ">=8.0.8"
+    },
+    "suggest": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src",
+            "PhpFromZero\\": "core"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests"
+        }
+    }
+}
