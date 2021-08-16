@@ -21,7 +21,7 @@
 
 
 // Include autoload, required to load classes
-require __DIR__ . '/../core/autoloader.php';
+require dirname(__DIR__). '/core/autoloader.php';
 
 
 use PhpFromZero\Http\Request;
